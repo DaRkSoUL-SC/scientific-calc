@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&display=swap');
+
+body {
+   background-image: url('https://images.pexels.com/photos/5088017/pexels-photo-5088017.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1
+{
+    text-align: center;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    margin-top: 30px;
+    font-size: 3em;
+    color: brown;
+}
+  
+  .calculator {
+     width: 500px;
+  background-color: rgba(203, 128, 70, 0.895);
+  padding: 22px;
+  border-radius: 10px;
+  margin: 12% 25%;
+  
+  }
+  
+  
+  input[type=text] {
+  width: 350px;
+      height: 27px;
+      border-radius: 5px;
+      border: 0px;
+      background-color: rgba(0, 128, 0, 0.854);
+      color: yellow;
+      padding: 0 5px 0 5px;
+      margin: 0 0px 10px 84px;
+  
+  }
+  
+  .calc-buttons {
+      display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+  }
+  
+  .button {
+     margin: 3px;
+  width: 63px;
+  border: none;
+  height: 25px;
+  border-radius: 4px;
+  color: #000000;
+  cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: hsla(180, 100%, 40%, 0.3);
+    transition: .2s;
+  }
+  
+  
+  
+  
+  .functions-one {
+      width: 210px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+  }
+  
+  
+  .functions-two {
+  width: 280px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+  
+  .triggers {
+      background-color: #ffc266;
+  }
+  
+  
+  
+  .numbers {
+      background-color: white;
+  }
+  
+  .basic-stuff {
+      background-color: #80d4ff;
+  }
+  
+  .complex-stuff {
+      background-color: #80ffff;
+  }
